@@ -1,6 +1,40 @@
-.mainborder{
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding: 5%;
-    margin-top: 7%;
+.mainborder {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5%;
+  margin-top: 7%;
+}
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.logoutButton{
+    align-self: center;
+}
+.mt-2{
+    margin-top: 2%;
+}
+.profileimage{
+    width: 150px;
+    height: 150px;
+    padding: auto;
+    border-radius: 100px;
+}
+.text-left{
+    text-align: start !important;
+}
+form .ant-col{
+    text-align: center !important;
 }
